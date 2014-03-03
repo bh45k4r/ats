@@ -59,4 +59,4 @@ function do_remap ()
     return 0
 end
 
--- vim: set sw=4 ts=4 et :
+-- vim: set et sw=4 ts=4 sts=4:
