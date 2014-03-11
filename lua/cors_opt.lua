@@ -9,6 +9,7 @@
 function send_cors_opt ()
     ts.debug ( 'got origin header ' .. ts.ctx [ 'origin_hdr' ] )
 
+    -- a whitelist can / should be implemented here
     local fragment = string.match ( ts.ctx [ 'origin_hdr' ], '^https?://[^/]+' )
     ts.debug ( 'setting cors header with ' .. fragment )
 
